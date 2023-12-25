@@ -128,7 +128,7 @@ async def uloader(client, message):
     global is_downloading
 
     try:
-        fsub = restrictedcontentt
+        fsub = "restrictedcontentt"
     except:
         pass
     if fsub:
@@ -230,7 +230,7 @@ async def uloader(client, message):
         video = True
     is_downloading = True
     try:
-        logchnl = restrictedcontentt
+        logchnl = "restrictedcontentt"
     except:
         pass
     if logchnl:
